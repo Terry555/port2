@@ -17,7 +17,7 @@ import Projects from '../views/Projects'
 import About from '../views/About'
 import Contact from '../views/Contact'
 
-import avatar from '../images/avatar.jpg'
+import avatar from '../images/profile.jpg'
 
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
@@ -63,40 +63,40 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm John Doe.
+          Hello, <br /> I'm Terry Foley.
         </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <Subtitle>I’m a software developer with a passion for solving problems.</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
+            title="Muzak"
             link="https://www.behance.net/gallery/58937147/Freiheit"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            Personalized music recommendations based on your profile, using React with Redux and Javascript.
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
+            title="SweetSeat"
             link="https://www.behance.net/gallery/52915793/Harry-Potter"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
+            Buy tickets to upcoming concerts in your area, using Ruby on Rails.
           </ProjectCard>
           <ProjectCard
-            title="Tomb Raider"
+            title="Quizzo"
             link="https://www.behance.net/gallery/43907099/Tomb-Raider"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
+            A ten-question trivia game to test your knowledge.
           </ProjectCard>
           <ProjectCard
-            title="Eagle"
+            title="Blackjack"
             link="https://www.behance.net/gallery/38068151/Eagle"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            A fantasy image manipulation relocating the habitat of wild animals.
+            A simple game of Blackjack, 21 or bust. 
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
@@ -105,16 +105,11 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
+            JavaScript, React, Ruby on Rails, HTML, CSS, SQL
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
-          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
-          right?
+          I’m a software developer with a passion for solving problems, working in teams and watching projects come to life. As a business major with strong math skills, I started my career in accounting but switched to software development, finding it more creative, more demanding, with more opportunities to learn and grow. I’m a fast learner and since starting my coding career I learn something new every day. I’m also a songwriter and performer who has released multiple albums of original music and toured the country as a guitarist and drummer.
         </AboutDesc>
       </About>
       <Contact offset={4}>
